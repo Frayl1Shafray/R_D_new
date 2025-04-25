@@ -187,6 +187,7 @@ shutil.copyfile(source_db, backup_db)
 ![alt text]({669DEC41-CB74-4597-B3C6-85F2FE491C12}.png)
 
 **Запустив перевірку цілістності даних та пошуку помилок**
+
 ![alt text]({CB8FDB1E-FE73-4645-B818-BBDFA370D828}.png)
 
 Все виконалося без помилок.
