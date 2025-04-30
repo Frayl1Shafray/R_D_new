@@ -5,12 +5,15 @@
 - Створення бази даних та колекцій:
     - Назвіть базу даних як gymDatabase
     Створення БД через compas
+
     ![alt text]({D2006D88-31FD-4FD2-B010-FC2FD9D14903}.png)
     ![alt text]({290C3A02-CA51-4E06-B83E-A3BAE56751AC}.png)
 
     - Створіть колекції: clients, memberships, workouts, trainers
     Створення колекцій через інтерфейс
+
     ![alt text]({4ABC7129-8681-46D6-80B5-254BFD4073BC}.png)
+
     ![alt text]({EE73C5BF-4E69-4CAD-9296-A05757B1776C}.png)
     Загальний вигляд:
     ![alt text]({98BE6BE5-1944-451D-AA54-70A953453D4E}.png)
@@ -21,6 +24,7 @@
 
     ![alt text]({7CD2EC59-EA7D-4B6B-916C-0693D7A10E22}.png)
     Загальний вигля колекції
+
     ![alt text]({D3C02960-6690-49F2-8008-5EA056B7172A}.png)
 
     - Memberships: membership_id, client_id, start_date, end_date, type
@@ -32,10 +36,12 @@
     ![alt text]({4A32EE59-0D09-4CE6-97D9-4142EBE0A4EC}.png)
 
     - Trainers: trainer_id, name, specialization
+
     ![alt text]({6D612F2E-9C40-4DEA-B9A0-2B87DC6F3738}.png)
 
 - Заповнення колекцій даними:
     - Додайте кілька записів до кожної колекції
+    
     Записи були одразу додані при побудові схеми
 
 - Запити:
@@ -70,4 +76,3 @@
     db.memberships.find({client_id: "C003"})
     ```
     ![alt text]({E373FB56-79C1-4513-9BF3-5C1E832FC3A7}.png)
-    
